@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.colorPickerBg {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-color {
+  font-weight: 900;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
